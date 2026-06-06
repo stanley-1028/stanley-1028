@@ -1,23 +1,22 @@
-# 👋 Hi, I'm Stanley
+# 👋 Stanley
 
-**🇲🇴 澳門・2011・AI Native Developer**
+**🇲🇴 澳門 · 2011 · AI Native Developer**
 
-Dan Koe 教會我：不是用 AI 做垃圾，而是讓 AI 幫我做好東西。
-
-> 🚀 2026.01 開始開發 → 2026.03 全面轉用 AI Agent
-
-我不用古法編程。我的工作方式 = **人類想架構 → AI Agent 寫代碼**。
+> 🧠 人類做架構 → 🤖 AI Agent 寫代碼  
+> 不做垃圾，只做好東西。
 
 ---
 
-### 📦 Projects
+## 📌 精選作品
 
-| Project | 一句話 |
-|---------|--------|
-| 📗 [AI Native Engineer 指南](https://github.com/stanley-1028/how-to-become-an-ai-native-engineer-and-live-better-in-ai-era) | 系統化教你成為 AI 時代的工程師 |
-| 🤖 [Agent Skill Matrix](https://github.com/stanley-1028/agent-skill-matrix) | 用 Python 評估 AI Agent 的能力成熟度 |
-| 🚀 Nova Launcher / Francium Loader | Java 開發的工具類項目 |
+| 項目 | 技術 | 一句話 |
+|------|------|--------|
+| 📗 [AI Native Engineer 指南](https://github.com/stanley-1028/ai-native-engineer-handbook) | — | 系統化成為 AI 時代工程師 |
+| 🤖 [Agent Skill Matrix](https://github.com/stanley-1028/agent-skill-matrix) | Python | AI Agent 能力成熟度評估 |
+| ⚡ [AI Performance Optimizer](https://github.com/stanley-1028/AIPerformanceOptimizer) | C# | RimWorld 遊戲智能性能優化 |
+| 📐 [數學自學聖經](https://github.com/stanley-1028/math-self-study-bible) | — | 全年齡零跳級數學教材 |
+| 🚀 Nova Launcher / Francium Loader | Java | 工具類啟加載項目 |
 
 ---
 
-> 🔨 我不畫大餅，只做能用的東西。
+> 🔨 **不畫大餅，只做能用的東西。**
