@@ -14,7 +14,6 @@
 |------|:----:|:----:|:----:|--------|
 | 📗 [AI Native Engineer 手冊](https://github.com/stanley-1028/ai-native-engineer-handbook) | Markdown | ✅ 100% 完成 | 0 | 成為 AI 時代工程師的系統化教材（13 章 + 5 附錄，~4 萬字） |
 | 🤖 [Agent Skill Matrix](https://github.com/stanley-1028/agent-skill-matrix) | Python | v3.2.0 | ⭐ 1 | AI Agent 能力成熟度矩陣，跨平台安裝（AstrBot / OpenAI / Claude） |
-| ⚡ [RimWorldCesium](https://github.com/stanley-1028/RimWorldCesium) | C# | v1.0.0 | 0 | RimWorld 效能優化模組，500+ Pawn / 500+ Mod 承載，77% Tick 跳過率 |
 | 📐 [數學自學聖經](https://github.com/stanley-1028/math-self-study-bible) | Markdown | v2.0.0 | 0 | 全年齡零跳級數學教材，48 章 9 個層級（學前 → 微積分），100% 完成 |
 | 🐍 [自學程式書庫](https://github.com/stanley-1028/programming-self-learning-books) | Markdown | — | 0 | 4 本書、75 章、16 萬字：Python → CS 核心 → Git → AI |
 | 📘 [英文文法自學書](https://github.com/stanley-1028/english-grammar-self-study) | Markdown | — | 0 | 專為華語母語者設計，12 章規劃，**目前進度：1/12 章** 🚧 |
