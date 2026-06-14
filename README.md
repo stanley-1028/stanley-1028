@@ -14,133 +14,162 @@
 
 ---
 
-# ?? ? Stanley
+# 👋 我是 Stanley
 
-> **?? 瞉喲? 繚 2011 撟游??繚 12 甇?繚 AI Native Developer**
+> **🇲🇴 澳門 · 2011 年出生 · 12 歲 · AI Native Developer**
 
-???臬蝯梢??潸?銝?撖怎?撘Ⅳ?????**閮剛??嗆???蝺?AI Agent?? AI ?踵?撖怠?賭?蝺??梯正**??
-敺?**2025 撟?1 ??*????ChatGPT ?予撘??潘?**3 ??*?券頧? AI Agent 撽??????AI 撣怎??**Dan Koe**??????**?I 銝??璈??舀雿撌乓?霈?AI ?擃?鞈芰??梯正嚗???AI ?獐??*
+我不是傳統開發者——我不「手寫程式碼」，我做的是**設計架構、訓練 AI Agent、讓 AI 替我寫出能上線的東西**。
 
-?遢 README 撠望??**雿???*?ㄐ?Ｘ?銝??獢?舐??祕???賣? AI Agent ?靘???
+從 **2025 年 1 月**開始用 ChatGPT 聊天式開發，**3 月**全面轉向 AI Agent 驅動開發。我的 AI 師父是 **Dan Koe**——他教會我：**「AI 不是老虎機，是數位員工。要讓 AI 做出高品質的東西，得教 AI 怎麼做。」**
+
+這份 README 就是我的**作品集**——裡面每一個專案都是真材實料，都是我用 AI Agent 做出來的。
+
 ---
 
-## ?? ????脣飛
+## 🧠 我的開發哲學
 
 ```
-?身閮瑽?+ 摰儔?釭璅?
-       ??AI Agent 撖怎?撘Ⅳ + 皜祈岫
-       ???祟?乓翮隞?漱隞?```
+我設計架構 + 定義品質標準
+       ↓
+AI Agent 寫程式碼 + 測試
+       ↓
+我審查、迭代、交付
+```
 
-**???瘜楊蝔??蝔?蝣潘???* ??瘜冽嚗?- ? **摰儔???瑽?* ????璆???暻潦獐??撠?- ?? **閮毀 AI Agent** ????AI ???嗚蝝頂蝯晞?鞈芣?皞?- ?? **蝞∠??瘚?** ??霈???AI Agent ??摰?撠?
-- ??**?釭??** ????鞎祇??塚?銝?撠曹?鈭支?
+**我不做古法編程（手刻程式碼）。** 我專注於：
+- 🎯 **定義問題與架構** — 搞清楚要做什麼、怎麼做才對
+- 🧠 **訓練 AI Agent** — 教 AI 思考框架、制約系統、品質標準
+- 🚀 **管理開發流程** — 讓多個 AI Agent 協作完成專案
+- ✅ **品質把關** — 我負責驗收，不通過就不交付
 
 ---
 
-## ?? ?雿?
+## 🚀 旗艦作品
 
-?????蝖祆????瘥???臬??嗥 AI Agent ??
-### ??[Cesium ??RimWorld ??芸?璅∠?](https://github.com/stanley-1028/RimWorldCesium)
+這三個是我最硬核的作品，每一個都是從零用 AI Agent 打造。
 
-> **C# 繚 Harmony 繚 ONNX 繚 RimWorld Mod 繚 Steam Workshop 3741939794**
+### ⚡ [Cesium — RimWorld 效能優化模組](https://github.com/stanley-1028/RimWorldCesium)
 
-RimWorld ??楛摨行??賢?芋蝯?敺?撅日??啗身閮?Tick ?嗆???
-| ?? | ?豢? |
+> **C# · Harmony · ONNX · RimWorld Mod · Steam Workshop 3741939794**
+
+RimWorld 遊戲的深度效能優化模組，從底層重新設計 Tick 架構。
+
+| 成果 | 數據 |
 |:----|:----|
-| 500+ Pawn + 500 Mods | 蝛拙? **60 TPS**嚗???~55 TPS嚗?|
-| 瘥?蝭??CPU | **1700-2700弮s** |
-| Mod 頛??| 500 mods 敺?9.8s ??**4.7s嚗?52%嚗?* |
-| 閮擃???| 8-10 GB ??**5-6 GB嚗?35%嚗?* |
-| AI 璅∪? | 3 ??ONNX 璅∪?嚗??仿?皜研?頝胯ick 隤踹漲嚗?|
+| 500+ Pawn + 500 Mods | 穩定 **60 TPS**（原版 ~55 TPS） |
+| 每幀節省 CPU | **1700-2700μs** |
+| Mod 載入加速 | 500 mods 從 9.8s → **4.7s（-52%）** |
+| 記憶體節省 | 8-10 GB → **5-6 GB（-35%）** |
+| AI 模型 | 3 個 ONNX 模型（載入預測、尋路、Tick 調度） |
 
-**?詨??菜嚗?* 璆剔?擐 **Defer 撱園?嗆?**??瘞訾?頝喲? `Pawn.Tick()`嚗摰撱園??閬?蝟餌絞嚗???Pawn ?蝯?典???蝞?
+**核心創新：** 業界首創 **Defer 延遲架構**— 永不跳過 `Pawn.Tick()`，而是安全延遲非必要子系統，所有 Pawn 最終全部完成計算。
+
 ---
 
-### ?? [Agent Skill Matrix](https://github.com/stanley-1028/agent-skill-matrix)
+### 🧠 [Agent Skill Matrix](https://github.com/stanley-1028/agent-skill-matrix)
 
-> **Python 繚 PyPI 繚 憭像?唳??繚 165 ?葫閰?*
+> **Python · PyPI · 多平台支援 · 165 項測試**
 
-霈?AI 敺?????璈??????渲?蝺渡??訾??∪極??**11 ??質?蝺渡頂蝯?*??
-| 撅斗活 | ??暻?| 撠勗? |
+讓 AI 從「亂猜的老虎機」變成「受過完整訓練的數位員工」的**11 技能訓練系統**。
+
+| 層次 | 做什麼 | 就像 |
 |:----|:-------|:----:|
-| ?? **????* | ??AI ?獐摰儔???釭?撌晞撠?蝣箏? | ??镼輻?蝜芰?雁 |
-| ?? **?嗥?蝟餌絞** | ??AI 隞暻潔??賢????具?撖艾?鞎祉?摨? | ?∪極????蝺?|
-| ??儭?**?寞?撌亙** | ??AI ?琿?甇仿??祕?啁?靘?鞈芣炎??| SOP ?炎?交???|
+| 🧠 **思考框架** | 教 AI 怎麼定義問題、質疑自己、面對不確定 | 達文西的繪畫思維 |
+| ⛓️ **制約系統** | 教 AI 什麼不能做——安全、誠實、負責的底線 | 員工手冊的紅線 |
+| 🛠️ **方法工具** | 教 AI 具體步驟、實戰範例、品質檢查 | SOP 與檢查清單 |
 
-- **11 ??璆剜??踝?** Researcher?nalyst?trategist?rchitect?ngineer?esigner?ester?lanner?perator?evOps?ommunicator
-- **?舀撟喳嚗?* AstrBot 繚 Hanako 繚 OpenAI Codex CLI 繚 Claude 繚 ChatGPT 繚 隞颱?撟喳
-- **撌脖? PyPI嚗??萄?鋆?*
+- **11 個專業技能：** Researcher、Analyst、Strategist、Architect、Engineer、Designer、Tester、Planner、Operator、DevOps、Communicator
+- **支援平台：** AstrBot · Hanako · OpenAI Codex CLI · Claude · ChatGPT · 任何平台
+- **已上 PyPI，一鍵安裝**
 
-> ? Dan Koe ???敹?賢??open source 撠???
+> 這是 Dan Koe 教我的核心思想落地成 open source 專案。
+
 ---
 
-### ??[Francium Mod Loader](https://github.com/stanley-1028/francium-loader)
+### ☕ [Francium Mod Loader](https://github.com/stanley-1028/francium-loader)
 
-> **Java 21 繚 ASM 繚 DAG 繚 SAT Solver 繚 AI ?璈 繚 Gradle 繚 JitPack**
+> **Java 21 · ASM · DAG · SAT Solver · AI 版本橋接 · Gradle · JitPack**
 
-銝?隞?Minecraft 璅∠????兩?摨惜?閮剛?嚗???Forge/Fabric ??瑽批?憿?
-| ?? | ?暹??寞? | **Francium ?寞?** |
+下一代 Minecraft 模組加載器——從底層重新設計，逐個擊破 Forge/Fabric 的結構性問題。
+
+| 問題 | 現有方案 | **Francium 方案** |
 |:----|:---------|:----------------:|
-| ????? | 敺芸???嚗?00 mods ? 2-3 ?? | **DAG 銝西???嚗?0-30 蝘???3-10x嚗?* |
-| ?銝摰?| 瘥?MC ???楊 | **AI 摮?蝣潭??伐??芸?頝函??祇??* |
-| 靘陷銵? | ??蝞∠? | **SAT 瘙圾?刻??閫?捱** |
-| ???| ?梁 ClassLoader | **瘥芋蝯蝡?ClassLoader + ?拐辣瘙?* |
+| 加載時間過長 | 循序加載，100 mods 需 2-3 分鐘 | **DAG 並行加載，20-30 秒（加速 3-10x）** |
+| 版本不相容 | 每 MC 版本需重編 | **AI 字節碼橋接，自動跨版本適配** |
+| 依賴衝突 | 手動管理 | **SAT 求解器自動化解決** |
+| 效能損耗 | 共用 ClassLoader | **每模組獨立 ClassLoader + 物件池** |
 
-- ?詨?皜祈岫 **70/70 100% ??**
-- ?批遣憟辣蝞∠??剁?`francium install/search/update`嚗?- ???摰對?Forge + Fabric嚗?
+- 核心測試 **70/70 100% 通過**
+- 內建套件管理器（`francium install/search/update`）
+- 雙生態相容（Forge + Fabric）
+
 ---
 
-## ?? ?雿?嚗???嚗?
-?支?蝖祆?嚗?銋 AI 撖思?憭折??頂蝯勗???嚗?
-| 撠? | ?批捆 | 摮 | ???|
+## 📚 教育作品（教材類）
+
+除了硬核開發，我也用 AI 寫了大量的系統化教材：
+
+| 專案 | 內容 | 字數 | 狀態 |
 |:----|:-----|:----:|:----:|
-| ?? **[AI Native Engineer ??](https://github.com/stanley-1028/ai-native-engineer-handbook)** | ? AI ?誨撌亦?撣怎?摰??嚗?3 蝡?+ 5 ??嚗?| ~4 ?砍? | ??100% |
-| ?? **[?詨飛?芸飛??](https://github.com/stanley-1028/math-self-study-bible)** | ?典僑朣⊿頝喟??詨飛嚗?8 蝡?9 撅斤? | ?瑞? | ??100% |
-| ?? **[?芸飛蝔??詨澈](https://github.com/stanley-1028/programming-self-learning-books)** | 4 ?祆??5 蝡?Python ??CS ??Git ??AI | ~16 ?砍? | ??100% |
-| ?? **[?望????芸飛?窟(https://github.com/stanley-1028/english-grammar-self-study)** | 撠?航?瘥??身閮??望??? | 閬?銝?| ? |
+| 📗 **[AI Native Engineer 手冊](https://github.com/stanley-1028/ai-native-engineer-handbook)** | 成為 AI 時代工程師的完整指南（13 章 + 5 附錄） | ~4 萬字 | ✅ 100% |
+| 📐 **[數學自學聖經](https://github.com/stanley-1028/math-self-study-bible)** | 全年齡零跳級數學，48 章 9 層級 | 長篇 | ✅ 100% |
+| 🐍 **[自學程式書庫](https://github.com/stanley-1028/programming-self-learning-books)** | 4 本書、75 章：Python → CS → Git → AI | ~16 萬字 | ✅ 100% |
+| 📘 **[英文文法自學書](https://github.com/stanley-1028/english-grammar-self-study)** | 專為華語母語者設計的英文文法 | 規劃中 | 🚧 |
 
 ---
 
-## ?? ?豢?銝閬?
+## 📊 數據一覽
+
 ```yaml
-?祇??澈: 7 ??雿?憿?: Mod ? 繚 AI Agent 獢 繚 Java 撌亙 繚 ?銵???蝮賢???   ~25 ?砍?+嚗???嚗?隤?:     C# 繚 Java 繚 Python 繚 Markdown
-AI 璅∪?:  3 ??ONNX 璅∪?嚗歇閮毀銝?嚗?皜祈岫閬?: 165 ??Agent Skill Matrix嚗? 70 ??Francium Loader嚗?撌脖???   Steam Workshop 繚 PyPI 繚 JitPack
+公開倉庫: 7 個
+作品類型: Mod 開發 · AI Agent 框架 · Java 工具 · 技術教材
+總字數:   ~25 萬字+（教材類）
+語言:     C# · Java · Python · Markdown
+AI 模型:  3 個 ONNX 模型（已訓練上線）
+測試覆蓋: 165 項（Agent Skill Matrix）+ 70 項（Francium Loader）
+已上架:   Steam Workshop · PyPI · JitPack
 ```
 
 ---
 
-## ? ?暹??? / ?交?
+## 💼 找我合作 / 接案
 
-???嗆? 12 甇莎?雿歇蝬 AI Agent ?鈭誑銝????????閬?
+我雖然才 12 歲，但已經用 AI Agent 做出了以上所有作品。如果你需要：
 
-| 雿閬? | ???|
+| 你想要的 | 我能做 |
 |:---------|:-------|
-| ? **? Mod ?**嚗imWorld / Minecraft嚗?| ??敺瑽?澆?銝璇? |
-| ?? **AI Agent 撌乩?瘚身閮?* | ??閮毀雿? AI ?訾??∪極 |
-| ?? **?銵?瑼?/ ???啣神** | ??25 ?砍?蝬? |
-| ? **Java / C# / Python 撠?** | ????AI Agent 擃?鈭支? |
-| ?? **?芸???蝔???* | ??CI/CD 繚 ?潔?蝞∠? 繚 皜祈岫獢 |
+| 💻 **遊戲 Mod 開發**（RimWorld / Minecraft） | ✅ 從架構到發布一條龍 |
+| 🤖 **AI Agent 工作流設計** | ✅ 訓練你的 AI 數位員工 |
+| 📚 **技術文檔 / 教材撰寫** | ✅ 25 萬字經驗 |
+| 🔧 **Java / C# / Python 專案** | ✅ 用 AI Agent 高效交付 |
+| 🚀 **自動化流程開發** | ✅ CI/CD · 發佈管線 · 測試框架 |
 
-**? ?獐?暹?嚗?*
-- [??Issue 閮?](https://github.com/stanley-1028/stanley-1028/issues/new) ????敹怎??孵?
-- ?湔 Fork + PR ??隞颱? open source ???賣迭餈?- 閬箏??芸?獢?????暺?潃?撠望?憟賜?曌嚗?
+**📬 怎麼找我？**
+- [開 Issue 討論](https://github.com/stanley-1028/stanley-1028/issues/new) — 這是最快的方式
+- 直接 Fork + PR — 任何 open source 協作都歡迎
+- 覺得哪個專案不錯 → 點個 ⭐ 就是最好的鼓勵！
+
 ---
 
-## ?? ?渲?
+## 🙏 致謝
 
-**Dan Koe** ???? AI ?撣怎?????隞嗡?嚗?1. **?Ⅱ?啣? AI 隤芸雿閬?暻?*
-2. **閬? AI ?Ｗ擃?鞈芰??梯正嚗???AI ?獐??*
+**Dan Koe** — 我的 AI 開發師父。他教會我兩件事：
+1. **明確地向 AI 說出你想要什麼**
+2. **要讓 AI 產出高品質的東西，得教 AI 怎麼做**
 
-瘝?隞???賡??刻? ChatGPT 鈭???
+沒有他，我可能還在跟 ChatGPT 亂聊。
+
 ---
 
 <p align="center">
   <a href="https://github.com/stanley-1028?tab=repositories">
-    <img src="https://img.shields.io/badge/?亦??券撠?-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/查看全部專案-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://github.com/stanley-1028/stanley-1028/issues/new">
-    <img src="https://img.shields.io/badge/?舐窗??FF6F00?style=for-the-badge&logo=minutemailer&logoColor=white" />
+    <img src="https://img.shields.io/badge/聯絡我-FF6F00?style=for-the-badge&logo=minutemailer&logoColor=white" />
   </a>
 </p>
 
 <p align="center">
-  ? <b>銝憭折?嚗??函??梯正??/b> 銝瘥????暺脣?賣??撖行???</p>
+  🔨 <b>不畫大餅，只做能用的東西。</b> 上面每一個連結點進去都是真材實料。
+</p>
