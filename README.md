@@ -1,11 +1,11 @@
-# 👋 我是 Stanley
+# 👋 我是 Stanley 堑
 
 **🇲🇴 澳門 · 2011 · AI 應用開發者**
 
 我不手寫程式碼——我跟 AI Agent 合作開發。  
 我用 AI 來做 RimWorld Mod、Minecraft Mod Loader、AI 技能訓練系統，還有一些教材。
 
-從 2025 年 1 月開始用 ChatGPT 聊天式開發，3 月轉向 AI Agent 驅動。  
+從 2026 年 1 月開始用 ChatGPT 聊天式開發，3 月轉向 AI Agent 驅動。  
 我的老師是 **Dan Koe**，他教會我：**「AI 不是老虎機，是數位員工。要教 AI 怎麼做，才能做出好東西。」**
 
 這是我用 AI 做出來的作品：
