@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=500&color=00C7F7&center=true&vCenter=true&width=800&height=80&lines=Stanley+%C2%B7+AI+Native+Developer;%E6%BE%B3%E9%96%80+%C2%B7+2011+%C2%B7+12%E6%AD%B2+%E2%80%9CAI+Agent+%E9%A6%96%E5%B8%AD%E5%BB%A0%E5%95%86%E2%80%9D;%E6%88%91%E4%B8%8D%E6%89%8B%E5%AF%AB%E7%A2%BC%EF%BC%8C%E6%88%91%E8%AE%93%E7%B7%B4+AI+Agent+%E5%81%9A%E6%9D%B1%E8%A5%BF;Dan+Koe+%E7%9A%84AI%E5%BE%92%E5%BC%9F;%E4%BD%9C%E5%93%81%E9%9B%86+%C2%B7+%E6%8E%A5%E6%A1%88%E4%B8%AD" alt="Typing SVG" />
+﻿<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=500&color=00C7F7&center=true&vCenter=true&width=800&height=80&lines=Stanley+%C2%B7+AI+Native+Developer;%E6%BE%B3%E9%96%80+%C2%B7+2011+%C2%B7+15%E6%AD%B2+%E2%80%9CAI+Agent+%E9%A6%96%E5%B8%AD%E5%BB%A0%E5%95%86%E2%80%9D;%E6%88%91%E4%B8%8D%E6%89%8B%E5%AF%AB%E7%A2%BC%EF%BC%8C%E6%88%91%E8%AE%93%E7%B7%B4+AI+Agent+%E5%81%9A%E6%9D%B1%E8%A5%BF;Dan+Koe+%E7%9A%84AI%E5%BE%92%E5%BC%9F;%E4%BD%9C%E5%93%81%E9%9B%86+%C2%B7+%E6%8E%A5%E6%A1%88%E4%B8%AD" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 # 👋 我是 Stanley
 
-> **🇲🇴 澳門 · 2011 年出生 · 12 歲 · AI Native Developer**
+> **🇲🇴 澳門 · 2011 年出生 · 15 歲 · AI Native Developer**
 
 我不是傳統開發者——我不「手寫程式碼」，我做的是**設計架構、訓練 AI Agent、讓 AI 替我寫出能上線的東西**。
 
@@ -134,7 +134,7 @@ AI 模型:  3 個 ONNX 模型（已訓練上線）
 
 ## 💼 找我合作 / 接案
 
-我雖然才 12 歲，但已經用 AI Agent 做出了以上所有作品。如果你需要：
+我雖然才 15 歲，但已經用 AI Agent 做出了以上所有作品。如果你需要：
 
 | 你想要的 | 我能做 |
 |:---------|:-------|
